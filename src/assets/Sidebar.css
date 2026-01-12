@@ -1,0 +1,37 @@
+.sidebar {
+  width: 250px;
+  height: 100vh;
+  position: fixed;
+  padding: 20px 0;
+  overflow-y: auto;
+}
+
+.sidebar-link {
+  display: block;
+  padding: 12px 20px;
+  color: #ccc;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.sidebar-link:hover,
+.sidebar-link.active {
+  background-color: #343a40;
+  color: #fff;
+}
+
+.submenu {
+  padding-left: 30px;
+}
+
+.sidebar-sublink {
+  display: block;
+  padding: 8px 0;
+  color: #aaa;
+  text-decoration: none;
+}
+
+.sidebar-sublink:hover,
+.sidebar-sublink.active {
+  color: #fff;
+}
