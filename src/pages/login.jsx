@@ -12,7 +12,7 @@ const Login = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const res = await api.post("/login", { email, password });
+      const res = await api.post("/api/login", { email, password });
       login(res.data.token);
       navigate("/dashboard");
     } catch {
